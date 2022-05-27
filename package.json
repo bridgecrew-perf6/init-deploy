@@ -1,0 +1,17 @@
+{
+  "name": "init-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "start:server": "node server-fs.js",
+    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "author": "lyllovelemon",
+  "license": "ISC"
+}
